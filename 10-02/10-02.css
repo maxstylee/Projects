@@ -1,0 +1,302 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: 'DsRg';
+    src: url('./fonts/DroidSans.ttf');
+}
+
+@font-face {
+    font-family: 'DsBd';
+    src: url('./fonts/DroidSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'GvRg';
+    src: url('./fonts/GreatVibes-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'OsHv';
+    src: url('./fonts/Oswald-Heavy.ttf');
+}
+
+@font-face {
+    font-family: 'OsRg';
+    src: url('./fonts/Oswald-Regular.ttf');
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.width {
+    width: 61%;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    padding: 12px 0;
+    background-color: #df001f;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'DsBd';
+    font-size: 13px;
+    padding: 10px 12px;
+    letter-spacing: 1px;
+}
+
+header nav a:hover {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* header finished here  */
+
+.section1 .back {
+    width: 100%;
+    background-image: url(./images/guitar\ man.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 210px 0 175px 0;
+    border-bottom: 3px solid #df001f;
+}
+
+.section1 .back .flex1 {
+    justify-content: center;
+}
+
+.section1 .back .box {
+    text-align: center;
+}
+
+.section1 .back .box h1 {
+    font-family: 'OsHv';
+    font-size: 115px;
+    color: #df001f;
+    margin-bottom: -30px;
+}
+
+.section1 .back .box p {
+    font-family: 'GvRg';
+    font-size: 80px;
+    margin-bottom: 47px;
+}
+
+.section1 .back .box button {
+    font-family: 'DsBd';
+    font-size: 12px;
+    padding: 20px 50px;
+    border-radius: 60px;
+    background-color: #df001f;
+    color: white;
+    border: none;
+    letter-spacing: 1px;
+    transition: transform 0.1s ease;
+    cursor: pointer;
+}
+
+.section1 .back .box button:active {
+    transform: scale(0.95);
+}
+
+/* sectin1 finished here  */
+
+
+.section2 {
+    padding: 105px 0;
+}
+
+.section2 .width h1 {
+    font-family: 'OsRg';
+    font-size: 32px;
+    letter-spacing: 3px;
+    font-weight: normal;
+}
+
+.section2 .width p {
+    font-family: 'GvRg';
+    font-size: 32px;
+    color: #df001f;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+}
+
+.section2 .width .flex .img {
+    width: 31%;
+    background-color: #df001f;
+}
+
+.section2 .width .flex .img img {
+    max-width: 100%;
+    margin-bottom: -67px;
+}
+
+.section2 .width .flex .img .txt {
+    padding: 14px 0px 20px 30px;
+    background-color: #df001f;
+    position: relative;
+    z-index: 2;
+}
+
+.section2 .width .flex .img h2 {
+    font-size: 22px;
+    font-family: 'OsRg';
+    color: white;
+    font-weight: normal;
+}
+
+.section2 .width .flex .img p {
+    font-size: 16px;
+    font-family: 'DsRg';
+    color: white;
+    margin-bottom: 0;
+}
+
+/* section2 finished here  */
+
+
+
+
+.section3 .width {
+    border-top: 2px solid rgb(229, 229, 229);
+    padding-bottom: 105px;
+}
+
+.section3 .width1 {
+    border-top: none;
+    display: flex;
+    justify-content: center;
+}
+
+.section3 .width1 video {
+    width: 100%;
+}
+
+.section3 .width h1 {
+    font-family: 'OsRg';
+    font-size: 32px;
+    letter-spacing: 3px;
+    font-weight: normal;
+}
+
+.section3 .width p {
+    font-family: 'GvRg';
+    font-size: 32px;
+    color: #df001f;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+}
+
+/* section3 finished here  */
+
+
+.section4 table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    background-color: #e6eaeb;
+    margin-bottom: 130px;
+}
+
+.section4 table th {
+    width: 33.3%;
+    font-size: 20px;
+    color: #df001f;
+    padding: 15px 0 10px 30px;
+
+}
+
+.section4 table td {
+    width: 33.3%;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.section4 table .head th {
+
+    background-color: #df001f;
+    color: white;
+    padding: 30px;
+}
+
+.section4 form {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.section4 form input {
+    width: 28%;
+    border: none;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.389);
+    padding: 10px 0;
+}
+
+.section4 form input:focus {
+    outline: none;
+}
+
+.section4 form button {
+    font-size: 15px;
+    color: #df001f;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: -13px;
+}
+
+.section4 form input::placeholder {
+    letter-spacing: 3px;
+    text-align: left;
+}
+
+/* section4 finished here   */
+
+footer .forNav {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+footer .forNav p {
+    font-size: 13px;
+    font-family: 'DsRg';
+}
+
+footer .forNav span {
+    font-family: 'GvRg';
+    color: #df001f;
+    font-size: 28px;
+}
+
+footer .forNav nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 100px 0 100px;
+    margin-bottom: 35px;
+}
+
+footer .forNav nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: 'DsRg';
+}
