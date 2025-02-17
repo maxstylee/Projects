@@ -1,0 +1,862 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: 'dami';
+    src: url(./Fonts/Damion-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'latoR';
+    src: url(./Fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'latoL';
+    src: url(./Fonts/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: 'latoB';
+    src: url(./Fonts/Lato-Black.ttf);
+}
+
+header {
+    background-image: url(./image/first.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 415px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.width {
+    width: 69%;
+    margin: auto;
+}
+
+header .acro {
+    font-family: 'dami';
+    font-size: 50px;
+    color: white;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'latoR';
+    padding: 42px 30px 20px 30px;
+    display: inline-block;
+    border-radius: 0 0 8px 8px;
+}
+
+header nav .active {
+    background-color: #74c7d5;
+
+}
+
+header nav a:hover {
+    background-color: #74c7d5;
+    border-radius: 0 0 8px 8px;
+}
+
+header .width {
+    margin-bottom: 350px;
+}
+
+header .box {
+    width: 915px;
+    margin: auto;
+    display: flex;
+    padding: 0 65px 0 27px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 7px;
+}
+
+header .box .left {
+    width: 50%;
+    margin: 27px 10px 0 0;
+    line-height: 57px;
+    max-width: 100%;
+}
+
+header .box .left h1 {
+    font-family: 'latoL';
+    font-size: 60px;
+    color: #74c7d5;
+    text-align: right;
+}
+
+header .box .right {
+    width: 50%;
+    max-width: 100%;
+}
+
+header .box .right h1 {
+    font-family: 'latoB';
+    font-size: 139px;
+    color: #74c7d5;
+}
+
+/* header finished here  */
+
+.section1 {
+    width: 100%;
+    background-color: #b24a50;
+    background-image: url(./image/background1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 125px;
+}
+
+.section1 .acro {
+    font-family: 'dami';
+    font-size: 50px;
+    color: white;
+}
+
+.section1 nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'latoR';
+    padding: 42px 30px 20px 30px;
+    display: inline-block;
+    border-radius: 0 0 8px 8px;
+}
+
+.section1 nav .active {
+    background-color: #df5c64;
+
+}
+
+.section1 nav a:hover {
+    background-color: #df5c64;
+    border-radius: 0 0 8px 8px;
+}
+
+.widthTxt {
+    width: 69%;
+    margin: auto;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.widthTxt h1 {
+    font-size: 60px;
+    font-family: 'latoL';
+    color: white;
+    margin-bottom: 50px;
+    font-weight: lighter;
+}
+
+.widthTxt .up {
+    font-size: 20px;
+    font-family: 'latoR';
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.widthTxt .up span {
+    color: #ec9da2;
+}
+
+.widthTxt .down {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'latoR';
+    color: #ffcccf;
+}
+
+.section1 .width .idea {
+    width: 24%;
+    background-color: #c45158;
+    border-radius: 5px;
+    padding: 40px 15px;
+    text-align: center;
+
+}
+
+.section1 .width .idea .cyrcle {
+    background-color: white;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section1 .width .idea .cyrcle .cLine {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 6px solid #c45158;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 .width .idea h1 {
+    color: white;
+    font-family: 'latoL';
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-weight: lighter;
+}
+
+.section1 .width .idea p {
+    color: #fefefe;
+    font-family: 'latoR';
+    font-size: 14px
+}
+
+/* section1 finished here  */
+.section2 {
+    background-color: #665464;
+    background-image: url(./image/background2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 115px;
+}
+
+.section2 .acro {
+    font-family: 'dami';
+    font-size: 50px;
+    color: white;
+}
+
+.section2 nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'latoR';
+    padding: 42px 30px 20px 30px;
+    display: inline-block;
+    border-radius: 0 0 8px 8px;
+}
+
+.section2 nav .active {
+    background-color: #91778e;
+
+}
+
+.section2 nav a:hover {
+    background-color: #91778e;
+    border-radius: 0 0 8px 8px;
+}
+
+.widthTxt .forh1 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.widthTxt .p1 {
+    font-size: 14px;
+    font-family: 'latoR';
+    color: #e5d1e3;
+    line-height: 24px;
+}
+
+.w2 {
+    padding-bottom: 60px;
+}
+
+.meet {
+    width: 26%;
+    margin: auto;
+    font-family: 'latoB';
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    background-color: #a1ca6c;
+    border-radius: 5px;
+    font-weight: lighter;
+    padding: 12px 40px 12px 40px;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.meet h2 {
+    position: relative;
+    z-index: 2;
+}
+
+.meet::after {
+    content: "";
+    width: 60px;
+    height: 60px;
+    background-color: #a1ca6c;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    z-index: 1;
+}
+
+.width .person {
+    width: 24%;
+    border-radius: 5px;
+    background-color: rgba(77, 63, 75, 0.5);
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+
+.width .person .cyrcle {
+    width: 165px;
+    height: 165px;
+    margin: auto;
+    background-color: #a1859e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.width .person .cyrcle .cyrclein {
+    background-image: url(./image/User.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.width .person h1 {
+    font-size: 25px;
+    font-family: 'latoB';
+    color: #c7b6c5;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.width .person p {
+    font-size: 14px;
+    font-family: 'latoR';
+    color: #a1ca6c;
+}
+
+.width .person .socMedia {
+    width: 100%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.width .person .socMedia ul {
+    display: flex;
+    justify-content: space-between;
+    width: 69%;
+    margin: auto;
+}
+
+.width .person .socMedia a {
+    background-color: #a1859e;
+    border-radius: 50%;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+/* Hover>>>>>>>>>>>>>>>>>>>>>>>>>>>>START! */
+.width .person:hover {
+    background-color: rgba(77, 63, 75, 0.8);
+    cursor: pointer;
+}
+
+.width .person:hover .cyrcle {
+    background-color: #df5c64;
+}
+
+.width .person:hover .cyrcle .cyrclein {
+    background-image: url(./image/UserRed.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.width .person:hover h1 {
+    color: white;
+}
+
+.width .person:hover p {
+    color: #ff8973;
+}
+
+.width .person:hover .socMedia a:nth-of-type(1) {
+    background-color: #4f689e;
+}
+
+.width .person:hover .socMedia a:nth-of-type(2) {
+    background-color: #74c7d5;
+}
+
+.width .person:hover .socMedia a:nth-of-type(3) {
+    background-color: #df5c64;
+}
+
+.width .person:hover .socMedia a:nth-of-type(4) {
+    background-color: #3e61af;
+}
+
+/* Hover >>>>>>>>>>>>>>>>>>>>>>>> FINISHED!*/
+
+/* section2 finished also */
+
+.section3 {
+    background-image: url(./image/background3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #81a256;
+    padding-bottom: 110px;
+}
+
+.section3 .acro {
+    font-family: 'dami';
+    font-size: 50px;
+    color: white;
+}
+
+.section3 nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'latoR';
+    padding: 42px 30px 20px 30px;
+    display: inline-block;
+    border-radius: 0 0 8px 8px;
+}
+
+.section3 nav .active {
+    background-color: #a1ca6c;
+
+}
+
+.section3 nav a:hover {
+    background-color: #a1ca6c;
+    border-radius: 0 0 8px 8px;
+}
+
+.w3 {
+    padding-bottom: 60px;
+}
+
+.w3 .forh2 {
+    font-size: 60px;
+    font-family: 'latoL';
+    color: white;
+    margin-bottom: 0px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.w3 .p1 {
+    color: white;
+}
+
+.section3 .width .portfolio {
+    color: white;
+    border-top: 1px solid #94b963;
+    border-bottom: 1px solid #94b963;
+    margin-bottom: 50px;
+}
+
+.section3 .width .portfolio h2 {
+    font-size: 20px;
+}
+
+.section3 .width .portfolio nav {
+    font-family: 'latoB';
+    padding: 35px 30px 35px 20px;
+}
+
+.section3 .width .portfolio nav a {
+    font-size: 16px;
+    padding: 10px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+.section3 .width .portfolio nav a:hover {
+    background-color: #f5c149;
+}
+
+.section3 .width .portfolio nav .active {
+    background-color: #f5c149;
+}
+
+.section3 .width .wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.section3 .width .wrap .box {
+    width: 24%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.section3 .width .box .down {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.section3 .width .box .down::before {
+    content: "";
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    z-index: 0;
+
+}
+
+.section3 .width .box .down p {
+    font-size: 14px;
+    font-family: 'latoR';
+    color: #727272;
+    z-index: 1;
+}
+
+.section3 .width .wrap .box:hover {
+    cursor: pointer;
+}
+
+.section3 .width .wrap .box:hover .up1 {
+    width: 100%;
+    height: 192px;
+    background-image: url(./image/Group\ 1\ hover_.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+
+}
+
+/* IMAGES>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.section3 .width .box .up1-1 {
+    height: 192px;
+    background-image: url(./image/img1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section3 .width .box .up2 {
+    height: 192px;
+    background-image: url(./image/img2.png);
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.section3 .width .box .up3 {
+    height: 192px;
+    background-image: url(./image/img3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section3 .width .box .up4 {
+    height: 192px;
+    background-image: url(./image/img4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section3 .width .box .up5 {
+    height: 192px;
+    background-image: url(./image/img5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section3 .width .box .up6 {
+    height: 192px;
+    background-image: url(./image/img6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section3 .width .box .up7 {
+    height: 192px;
+    background-image: url(./image/img7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section3 .width .box .up8 {
+    height: 192px;
+    background-image: url(./image/img8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* IMAGES>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+.section4 {
+    background-image: url(./image/background4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #81a256;
+    padding-bottom: 80px;
+}
+
+.section4 .acro {
+    font-family: 'dami';
+    font-size: 50px;
+    color: white;
+}
+
+.section4 nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'latoR';
+    padding: 42px 30px 20px 30px;
+    display: inline-block;
+    border-radius: 0 0 8px 8px;
+}
+
+.section4 nav .active {
+    background-color: #82c8bd;
+
+}
+
+.section4 nav a:hover {
+    background-color: #82c8bd;
+    border-radius: 0 0 8px 8px;
+}
+
+.w4 {
+    margin-bottom: 125px;
+}
+
+.w4 .p1 {
+    color: white;
+}
+
+.section4 .width .left {
+    width: 50%;
+    margin-right: 25px;
+}
+
+.section4 .width .left .forh1 {
+    font-size: 30px;
+    font-family: 'latoL';
+    font-weight: light;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.section4 .width .left .flex1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section4 .coord {
+    margin-bottom: 60px;
+}
+
+.section4 .coord p {
+    color: white;
+    font-size: 16px;
+}
+
+
+.section4 .coord .span1 {
+    color: #c0dfda;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+.section4 .numbers {
+    display: flex;
+}
+
+.section4 .numbers p {
+    color: white;
+}
+
+.section4 .numbers .pline {
+    text-decoration: underline;
+}
+
+.section4 .numbers .forspan {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    color: #c0dfda;
+}
+
+.section4 .right1 {
+    background-image: url(./image/map.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 230px;
+    border-radius: 5px;
+}
+
+.section4 .width .flex2 {
+    align-items: start;
+}
+
+.section4 .width .right {
+    width: 50%;
+    margin-left: 25px;
+}
+
+.section4 .width .right .head .forh2 {
+    font-size: 30px;
+    font-family: 'latoL';
+    font-weight: light;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.section4 .width .right .forinp {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.section4 .width .right .forinp input {
+    width: 240px;
+    background: none;
+    border: none;
+    background-color: #68a097;
+    border-radius: 5px;
+    padding: 12px;
+    padding-left: 18px;
+}
+
+.section4 .width .right .forinp input::placeholder {
+    color: #7bbeb3;
+    font-family: 'latoR';
+}
+
+.section4 .width .right .forinp input:focus {
+    outline: none;
+    background-color: white;
+}
+
+.section4 .width .right .textarea textarea {
+    width: 100%;
+    height: 170px;
+    background: none;
+    border: none;
+    background-color: #68a097;
+    border-radius: 5px;
+    padding: 12px 0 0 18px;
+}
+.section4 .width .right .textarea textarea:focus {
+    outline: none;
+    background-color: white;
+}
+
+.section4 .width .right .textarea textarea::placeholder {
+    color: #7bbeb3;
+    font-family: 'latoR';
+}
+
+.space {
+    margin-bottom: 30px;
+}
+
+.section4 .width .but {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-left: 25px;
+}
+
+.section4 .width .but button {
+    width: 240px;
+    font-family: 'latoB';
+    background-color: #df5c64;
+    border: none;
+    padding: 9px 0 9px 0;
+    font-size: 26px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 1px #c8535a;
+    cursor: pointer;
+    transition: transform 0.05s ease;
+}
+
+.section4 .width .but button:active {
+    /* transform: scale(0.95); */
+    transform: translate(0px, 1px) scale(0.99);
+    box-shadow: none;
+}
+
+footer {
+    padding: 40px 0;
+    background-color: #68a097;
+}
+
+footer .boxIcon {
+    width: 23%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .boxIcon a {
+    background-color: #82c8bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 25px;
+
+}
