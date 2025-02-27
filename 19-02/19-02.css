@@ -1,0 +1,509 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: 'alfaR';
+    src: url(./fonts/AlfaSlabOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'bebR';
+    src: url(./fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'bebB';
+    src: url(./fonts/BebasNeue\ Bold.ttf);
+}
+
+@font-face {
+    font-family: 'monT';
+    src: url(./fonts/Montserrat-Thin.ttf);
+}
+
+header {
+    margin-bottom: 80px;
+}
+
+header .back {
+    background-image: url(./images/backgroun\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+header .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .header>span {
+    padding: 60px 0 0 60px;
+}
+
+header .header .rightIcon {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 0 60px 25px 0;
+}
+
+header .header .rightIcon>span {
+    margin-right: 45px;
+}
+
+header .header .rightIcon img {
+    width: 35px;
+}
+
+header .header .rightIcon p {
+    font-family: 'monT';
+    color: #3d2514;
+    font-size: 14px;
+}
+
+.back .nav {
+    display: flex;
+    justify-content: right;
+}
+
+.back .nav ul a {
+    text-decoration: none;
+    color: #3d2514;
+    font-size: 16px;
+    font-family: 'bebB';
+    letter-spacing: 5px;
+    margin-right: 55px;
+}
+
+header .back .burgerWeek {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+header .back .burgerWeek .left .borderP {
+
+    border: 2px solid transparent;
+    border-image: repeating-linear-gradient(45deg, #3d2514 0px, #3d2514 5px, transparent 5px, transparent 10px) 1;
+    padding: 10px 10px 10px 10px;
+    width: 405px;
+
+}
+
+header .back .burgerWeek .left {
+    display: flex;
+    align-items: center;
+}
+
+header .back .burgerWeek .left .borderP p {
+    color: #3d2514;
+    font-family: 'bebR';
+    font-size: 24px;
+}
+
+header .back .burgerWeek .left h1 {
+    font-family: 'alfaR';
+    color: #3d2514;
+    font-size: 112px;
+    text-shadow: 4px 4px 0px #fdedcc;
+}
+
+header .back .burgerWeek .left h2 {
+    font-family: 'alfaR';
+    color: #3d2514;
+    font-size: 58px;
+    text-shadow: 4px 4px 0px #fdedcc;
+}
+
+header .back .burgerWeek .right img {
+    max-width: 100%;
+    position: relative;
+    top: -120px;
+}
+
+/* header finished here >>>>>>>>  */
+.section1 {
+    padding: 0 100px 0 109px;
+    margin-bottom: 70px;
+}
+
+.section1 .img {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-bottom: 75px;
+}
+
+.section1 .img .left {
+    width: 49%;
+}
+
+.section1 .img .left img {
+    max-width: 100%;
+}
+
+.section1 .img .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 368px; */
+    /* max-height: 100%; */
+    width: 49%;
+}
+.section1 .img .right .up {
+    margin-bottom: 5%;
+}
+.section1 .img .right img {
+    max-width: 100%;
+}
+
+.section1 .width {
+    width: 73%;
+    margin: auto;
+    text-align: center;
+}
+
+.section1 .width button {
+    font-family: 'bebB';
+    font-size: 18px;
+    background-color: #ffc045;
+    border: none;
+    padding: 9px 15px;
+    color: #3d2514;
+    margin-bottom: 40px;
+}
+
+.section1 .width h1 {
+    font-family: 'alfaR';
+    color: #3d2514;
+    font-size: 37px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.section1 .width p {
+    color: #3d2514;
+    font-size: 14px;
+    font-family: 'monT';
+}
+
+/* section 1 finished here >>>>>>>>> */
+
+.section2 {
+    margin-bottom: 130px;
+}
+
+.section2 .width {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.section2 .width .box {
+    text-align: center;
+}
+
+.section2 .width .box .img {
+    height: 355px;
+    display: flex;
+    align-items: end;
+    margin-bottom: 10px;
+}
+
+.section2 .width .box .img img {
+    max-width: 100%;
+}
+
+.section2 .width .box h1 {
+    color: #3d2514;
+    font-family: 'bebB';
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+}
+
+.section2 .width .box p {
+    color: #3d2514;
+    font-family: 'monT';
+    font-size: 14px;
+    width: 310px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.section2 .width .box button {
+    border: none;
+    background-color: #bf2222;
+    cursor: pointer;
+    font-family: 'alfaR';
+    color: white;
+    text-align: center;
+    padding: 14px 28px 7px 28px;
+}
+
+/* section 2 finished here >>>>>>>>>>>>>>>  */
+
+
+.section3 {
+    padding-bottom: 50px;
+    margin-bottom: 80px;
+}
+
+.section3 .width {
+    width: 90%;
+    margin: auto;
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.18);
+    padding: 25px;
+}
+
+.section3 .width .box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.section3 .width .box .left {
+    padding: 20px;
+}
+
+.section3 .width .box .left .forP {
+    color: black;
+    font-family: 'bebB';
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.section3 .width .box .left h2 {
+    color: #3d2514;
+    font-family: 'alfaR';
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.section3 .width .box .left p {
+    color: #3d2514;
+    font-family: 'monT';
+    font-size: 21px;
+    line-height: 32px;
+
+}
+
+/* section 3 finished here ?>>>>>>>>>>>>>  */
+
+.section4 {
+    margin-bottom: 190px;
+}
+
+.section4 .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.section4 .header::before {
+    content: "";
+    display: block;
+    background-image: url(./images/before\ burger.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 310px;
+    height: 340px;
+    left: 0;
+}
+
+.section4 .header .txt p {
+    text-align: center;
+    font-family: 'bebB';
+    font-size: 29px;
+    color: #3d2514;
+    letter-spacing: 2px;
+}
+
+.section4 .header .txt h1 {
+    text-align: center;
+    font-family: 'alfaR';
+    font-size: 47px;
+    color: #3d2514;
+    letter-spacing: 3px;
+}
+
+.section4 .mid {
+    position: relative;
+}
+
+.section4 .mid::after {
+    content: "";
+    display: block;
+    background-image: url(./images/plate\ after.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 310px;
+    height: 530px;
+}
+
+.section4 .mid form {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    position: relative;
+}
+
+.section4 .mid form::before {
+    content: "";
+    display: block;
+    background-image: url(./images/bottle\ before.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 200px;
+    height: 410px;
+    left: -170px;
+    top: -50px;
+}
+
+.section4 .mid form input {
+    padding: 18px;
+    margin: 12px;
+    width: 360px;
+    border: 1px solid #bebebe;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.section4 .mid form input::placeholder {
+    font-family: 'bebR';
+    color: black;
+}
+
+.section4 .mid form button {
+    padding: 18px;
+    margin: 12px;
+    width: 360px;
+    border: none;
+    background-color: #bf2222;
+    color: white;
+    font-family: 'alfaR';
+    border-radius: 4px;
+    font-size: 20px;
+
+}
+
+
+/* section 4 finished here >>>>>>>>>  */
+
+.section5{
+    padding-bottom: 60px;
+}
+
+.section5 .width {
+    width: 92.5%;
+    margin: auto;
+    background-image: url(./images/last\ background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+.section5 .width .flex {
+    display: flex;
+    margin-bottom: 160px;
+}
+
+.section5 .width .flex>.left {
+    width: 50%;
+    padding: 80px 0 0 40px;
+}
+
+.section5 .width .left>img {
+    margin-bottom: 50px;
+}
+
+.section5 .width .left .txt {
+    color: white;
+    font-family: 'monT';
+    font-size: 16px;
+    width: 80%;
+    max-width: 100%;
+    line-height: 25px;
+}
+
+.section5 .width .right {
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.section5 .width .right .box .left {
+    display: flex;
+    flex-direction: column;
+}
+
+.section5 .width .right .box .left span {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.section5 .width .right .box .left span P {
+    color: white;
+    font-family: 'bebB';
+    padding: 6px 0 0 30px;
+    font-size: 20px;
+}
+
+.section5 .width .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 40px;
+}
+
+.section5 .width .footer P {
+    font-family: 'bebR';
+    font-size: 14px;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.section5 .width .footer nav {
+    display: flex;
+}
+
+.section5 .width .footer nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18px;
+}

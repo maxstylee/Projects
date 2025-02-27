@@ -1,0 +1,390 @@
+@media only screen and (max-width:1511px) {
+    header .section .forNav {
+        width: 72%;
+    }
+
+
+    header .section .forNav nav {
+        width: 68%;
+        margin: auto;
+    }
+
+    header .section .forNav a {
+        padding: 24px 15px;
+    }
+
+    .section2 .back {
+        margin-top: -10%;
+        padding-top: 90px;
+    }
+
+    .section4 .back {
+        margin-bottom: -10%;
+        padding-top: 65px;
+    }
+
+    .section4 .back .box .down .cyrcle {
+        width: 230px;
+        height: 230px;
+        font-size: 35px;
+
+    }
+
+    .section1 .back .left {
+        width: 50%;
+    }
+
+    .section3 .back .left .sushi {
+        width: 380px;
+        height: 380px;
+    }
+
+    .section1 .back .left h1 {
+        font-size: 75px;
+    }
+
+    .section1 .back .left p {
+        width: 70%;
+    }
+
+    .section5 .back .right .sushi {
+        width: 400px;
+        height: 400px;
+    }
+
+    .section6 .back {
+        margin: -15% 0;
+        padding: 200px 0;
+    }
+
+    .section6 .back .box p {
+        font-size: 24px;
+    }
+
+    footer .back {
+        padding: 200px 40px;
+    }
+
+    footer .back .box .right .row {
+        width: 25%;
+    }
+
+    .section2 .back .box .down .forImg1 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .section2 .back .box .down .forImg2 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .section2 .back .box .down .forImg3 {
+        width: 200px;
+        height: 200px;
+    }
+
+
+}
+
+@media only screen and (max-width:1000px) {
+
+    header .section .forNav nav {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+
+    header .section .forNav nav a {
+        padding: 20px 6px;
+    }
+
+    .section1 .back .left {
+        width: 70%;
+    }
+
+    .section2 .back .box {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    .section2 .back .box .down {
+        flex-wrap: wrap;
+    }
+
+    .section2 .back .box .down .sushi {
+        width: 41%;
+        margin-bottom: 20px;
+    }
+
+    .section3 .back .left .sushi {
+        width: 300px;
+        height: 300px;
+    }
+
+    .section4 .back .box .up {
+        width: 80%;
+    }
+
+    .section4 .back .box .down {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .section4 .back .box .down .cyrcle {
+        margin: 0 30px;
+    }
+
+    .section5 .back .right .sushi {
+        width: 300px;
+        height: 300px;
+    }
+
+    .section5 .back {
+        padding: 120px 0;
+    }
+
+    .section5 .back .left {
+        width: 35%;
+    }
+
+    .section5 .back .right {
+        width: 45%;
+    }
+
+    .section5 .back .left h1 {
+        font-size: 40px;
+    }
+
+    .section7 .back {
+        padding: 80px 0;
+    }
+
+    .section7 .back .box {
+        width: 80%;
+    }
+
+    footer .back .box {
+        justify-content: center;
+    }
+
+    footer .back .box .left {
+        width: 40%;
+        padding-right: 50px;
+    }
+
+    footer .back .box .left p {
+        font-size: 20px;
+    }
+
+    footer .back .box .right {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width:760px) {
+    header .section {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .section1 .back {
+        padding-top: 60px;
+    }
+
+    .section1 .back .left {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .section1 .back .left h1 {
+        font-size: 58px;
+    }
+
+    .section1 .back .left p {
+        font-size: 16px;
+    }
+
+    .section2 .back {
+        margin-top: -16%;
+        padding-top: 70px;
+    }
+
+    .section2 .back .box .up {
+        width: 80%;
+    }
+
+    .section2 .back .box .up p {
+        font-size: 16px;
+    }
+
+    .section2 .back .box .down {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .section2 .back .box .down .sushi {
+        width: auto;
+    }
+
+    .section3 .back {
+        flex-direction: column;
+        padding-right: 0;
+
+    }
+
+    .section3 .back .left {
+        width: auto;
+        padding: 50px 0;
+    }
+
+    .section3 .back .left .sushi {
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .section3 .back .right {
+        width: auto;
+        padding-bottom: 20px;
+    }
+
+    .section3 .back .right h1 {
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+
+    .section3 .back .right .txt {
+        width: 80%;
+    }
+
+    .section3 .back .right p {
+        font-size: 17px;
+        margin-bottom: 50px;
+    }
+
+    .section4 .back {
+        margin-bottom: -25%;
+    }
+
+    .section4 .back .box .down {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 200px;
+
+    }
+
+    .section4 .back .box .down .cyrcle {
+        margin: 0;
+        width: 170px;
+        height: 170px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .section5 .back {
+        flex-direction: column;
+        padding: 70px 20px;
+        background-position: left;
+        margin-top: -29%;
+    }
+
+    .section5 .back .left {
+        width: auto;
+        text-align: center;
+    }
+
+    .section5 .back .left h1 {
+        margin-bottom: 105px;
+    }
+
+    .section5 .back .left p {
+        margin: 40px 0;
+    }
+
+    .section5 .back .right {
+        width: auto;
+    }
+    .section5 .back .right .sushi {
+        width: 200px;
+        height: 200px;
+    }
+    .section6 {
+        margin-top: -108px;
+    }
+
+    .section6 .back {
+        margin: -33% 0;
+    }
+
+    .section6 .back .box {
+        width: 90%;
+    }
+
+    .section6 .back .box p {
+        font-size: 18px;
+    }
+
+    .section7 .back {
+        padding: 30px 0;
+    }
+
+    .section7 .back .box h1 {
+        font-size: 51px;
+    }
+
+    .section7 .back .box p {
+        font-size: 18px;
+    }
+
+    .section7 .back .box .forinp {
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+    }
+    .section7 .back .box .forinp .inp {
+        margin-bottom: 10px;
+    }
+
+    .section7 .back .box button {
+        margin: auto;
+    }
+
+    footer .back {
+        padding: 50px 10px;
+    }
+
+    footer .back .box {
+        flex-direction: column;
+        width: auto;
+    }
+
+    footer .back .box .left {
+        width: auto;
+        padding-left: 10%;
+    }
+
+    footer .back .box .right {
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 10%;
+
+    }
+    footer .back .box .right .row {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+
+    footer .back .box .right .row .head {
+        font-size: 20px;
+    }
+
+    footer .back .box .right .row a {
+        font-size: 12px;
+    }
+}

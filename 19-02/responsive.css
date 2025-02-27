@@ -1,0 +1,362 @@
+@media only screen and (max-width:1221px) {
+    header .back .burgerWeek .right img {
+        top: -30px;
+    }
+
+    .section3 .width .box .left {
+        width: 50%;
+    }
+
+    .section3 .width .box .right {
+        width: 50%;
+
+    }
+
+    .section3 .width .box .right img {
+        max-width: 100%;
+    }
+
+    .section3 .width .box .left h2 {
+        font-size: 30px;
+    }
+
+    .section3 .width .box .left p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    header .back .burgerWeek .left h1 {
+        font-size: 90px;
+    }
+
+    header .back .burgerWeek .left h2 {
+        font-size: 45px;
+    }
+
+}
+
+@media only screen and (max-width:951px) {
+    header .back .nav {
+        margin: 25px;
+    }
+
+    .section1 {
+        padding: 0 50px;
+        margin-bottom: 0;
+    }
+
+    .section4 .header::before {
+        width: 180px;
+        height: 200px;
+    }
+
+    .section2 .width .box {
+        max-width: 30%;
+    }
+
+    .section2 .width .box p {
+        max-width: 100%;
+    }
+
+    .section4 .mid::after {
+        width: 220px;
+        height: 370px;
+    }
+
+    .section4 {
+        margin-bottom: 80px;
+    }
+
+    header .back .burgerWeek .left h1 {
+        font-size: 70px;
+    }
+
+    header .back .burgerWeek .left h2 {
+        font-size: 35px;
+    }
+
+    header .header>span {
+        padding-top: 30px;
+    }
+
+    header .back .burgerWeek {
+        padding-bottom: 20px;
+    }
+
+}
+
+@media only screen and (max-width:771px) {
+    .section2 {
+        margin-bottom: 50px;
+    }
+
+    .section2 .width {
+        flex-wrap: wrap;
+    }
+
+    .section2 .width .box {
+        max-width: 40%;
+    }
+
+    header .back .burgerWeek {
+        padding: 0 30px;
+    }
+
+    header .back .burgerWeek .left {
+        width: 55%;
+    }
+
+    header .back .burgerWeek .right {
+        width: 45%;
+    }
+
+    header .back .burgerWeek .left .borderP {
+        width: auto;
+    }
+
+    header .back .burgerWeek .left .borderP p {
+        font-size: 18px;
+    }
+
+    .section4 .header .txt h1 {
+        font-size: 30px;
+    }
+
+    .section4 .header .txt p {
+        font-size: 25px;
+    }
+
+    .section4 .mid::after {
+        width: 180px;
+        height: 300px;
+        top: 80px;
+    }
+
+    .section4 .mid form::before {
+        left: -130px;
+    }
+
+    .section3 .width .box .left {
+        padding: 0px;
+        margin-right: 10px;
+    }
+
+    .section2 .width .box .img {
+        height: 300px;
+    }
+
+
+}
+
+@media only screen and (max-width:701px) {
+    header .header {
+        flex-direction: column;
+    }
+
+    header .header>span {
+        text-align: center;
+        padding-left: 0;
+        margin-bottom: 30px;
+    }
+
+    header .header .rightIcon {
+        justify-content: center;
+        padding-right: 0;
+    }
+
+    .section1 .width h1 {
+        font-size: 30px;
+
+    }
+
+    header .back .nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    header .back .burgerWeek .left h1 {
+        font-size: 55px;
+    }
+
+    header .back .burgerWeek .left h2 {
+        font-size: 30px;
+    }
+
+    header .back .burgerWeek .left .borderP p {
+        font-size: 15px;
+    }
+
+    .section3 .width .box .left h2 {
+        font-size: 25px;
+        margin-bottom: auto;
+    }
+
+    .section3 .width {
+        padding: 10px;
+    }
+
+    .section3 .width .box .left .forP {
+        font-size: 18px;
+    }
+
+    .section3 .width .box .left h2 {
+        font-size: 22px;
+    }
+
+    .section4 .mid form input {
+        width: 300px;
+    }
+
+    .section4 .mid form button {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 611px) {
+    header .back .nav {
+        margin: 1px;
+        margin-bottom: 20px;
+    }
+
+    .back .nav ul a {
+        margin-right: 1px;
+    }
+
+    header .back .burgerWeek {
+        flex-direction: column;
+    }
+
+    header .back .burgerWeek .left {
+        width: auto;
+        justify-content: center;
+    }
+
+    header .back .burgerWeek .right {
+        width: auto;
+    }
+
+    header .back .burgerWeek .left h2 {
+        text-align: center;
+    }
+    
+
+    header {
+        margin-bottom: 40px;
+    }
+
+    .section1 {
+        margin-bottom: 20px;
+    }
+    
+
+    .section1 .img {
+        margin-bottom: 30px;
+        flex-direction: column;
+    }
+
+    .section1 .img .left {
+        width: auto;
+    }
+    .section1 .img .right {
+        width: auto;
+    }
+    .section1 .img .right .up {
+        margin-bottom: auto;
+    }
+    .section1 .width button {
+        margin-bottom: 30px;
+    }
+
+    .section2 .width {
+        flex-direction: column;
+        align-items: center;
+        /* height: auto; */
+    }
+
+    .section2 .width .box .img {
+        height: auto;
+    }
+
+    .section4 .header::before {
+        display: none;
+    }
+
+    .section4 .mid::after {
+        display: none;
+    }
+
+    .section4 .mid form::before {
+        display: none;
+    }
+
+    .section2 .width .box {
+        margin-bottom: 20px;
+    }
+
+    .section2 .width .box {
+        max-width: 70%;
+    }
+
+    .section3 .width .box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section3 .width .box .left {
+        width: auto;
+    }
+    .section3 .width .box .right {
+        width: auto;
+    }
+    .section3 .width .box .left p {
+        margin-bottom: 20px;
+    }
+    .section3 {
+        /* padding-bottom: 50px; */
+        margin-bottom: 20px;
+    }
+    .section4 .header {
+        margin-bottom: 30px;
+    }
+    .section4 {
+        margin-bottom: 40px;
+    }
+    .section5 .width .flex {
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+    .section5 .width .flex>.left img {
+        width: 90%;
+    }
+    .section5 .width .left .txt {
+        font-size: 14px;
+    }
+    .section5 .width .flex>.left {
+        width: 75%;
+        padding: 60px 0 0 0;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+    .section5 .width .right {
+        width: auto;
+    }
+    .section5 .width .right .box {
+        width: 75%;
+    }
+    .section5 .width .right .box .left span P {
+        font-size: 16px;
+    }
+    .section5 .width .footer {
+        flex-direction: column;
+        padding-left: 12%;
+    }
+    .section5 .width .footer p {
+        margin-bottom: 12px;
+    }
+    .section5 .width .footer nav a {
+        margin: 0 18px 0 0;
+    }
+
+
+}
